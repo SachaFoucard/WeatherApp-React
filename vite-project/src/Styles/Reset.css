@@ -10,6 +10,10 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+input:focus, textarea:focus, select:focus{
+    font-size: 20px;
+}
+
 img {
     max-width: 100%;
     width: 100%;
@@ -55,7 +59,7 @@ main {
 
 .search-box .search-bar:focus {
     background-color: rgba(0, 0, 0, 0.75);
-    color:#fff ;
+    color: #fff;
 }
 
 .location-box .location {
@@ -99,12 +103,15 @@ main {
     font-weight: 700;
     text-shadow: 3px 3px rgba(50, 50, 70, 0.5);
 }
-.humidity{
+
+.humidity {
     color: #fff;
 }
-.ressenti{
+
+.ressenti {
     color: #fff;
 }
-.uv{
+
+.uv {
     color: #fff;
 }
